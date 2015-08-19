@@ -47,3 +47,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :jruby]
 gem 'activerecord-jdbcpostgresql-adapter'
 gem 'rails_12factor', group: :production
 gem 'puma'
+
+# CB: Added this because http://stackoverflow.com/questions/28775398/javascript-include-tag-throws-unsupported-method
+gem 'coffee-script-source', '1.8.0'
