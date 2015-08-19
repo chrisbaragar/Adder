@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# CB: added this for windows
+ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -36,4 +38,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+# CB: Added :jruby
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :jruby]
+
+# Use postgresql as the database for Active Record
+gem 'activerecord-jdbcpostgresql-adapter'
+gem 'rails_12factor', group: :production
+gem 'puma'
