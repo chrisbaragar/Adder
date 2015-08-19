@@ -1,1 +1,2 @@
-JRUBY_OPTS=-Xcext.enabled=true
+# CB: This was just throwing errors
+# JRUBY_OPTS=-Xcext.enabled=true
