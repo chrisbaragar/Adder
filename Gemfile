@@ -50,3 +50,7 @@ gem 'puma'
 
 # CB: Added this because http://stackoverflow.com/questions/28775398/javascript-include-tag-throws-unsupported-method
 gem 'coffee-script-source', '1.8.0'
+
+
+# CB: Actual app stuff here...
+gem 'best_in_place', '~> 3.0.1'
