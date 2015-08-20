@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :numbers
+  resources :activities
 
   get 'welcome/index'
 

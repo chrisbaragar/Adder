@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  value: 1.5
+  duration: 1.5
 
 two:
   name: MyString
-  value: 1.5
+  duration: 1.5

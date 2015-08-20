@@ -1,10 +1,10 @@
-<%= form_for(@number) do |f| %>
-  <% if @number.errors.any? %>
+<%= form_for(@activity) do |f| %>
+  <% if @activity.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@number.errors.count, "error") %> prohibited this number from being saved:</h2>
+      <h2><%= pluralize(@activity.errors.count, "error") %> prohibited this activity from being saved:</h2>
 
       <ul>
-      <% @number.errors.full_messages.each do |message| %>
+      <% @activity.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -16,8 +16,8 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :value %><br>
-    <%= f.text_field :value %>
+    <%= f.label :duration %><br>
+    <%= f.text_field :duration %>
   </div>
   <div class="actions">
     <%= f.submit %>
