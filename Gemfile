@@ -55,3 +55,4 @@ gem 'coffee-script-source', '1.8.0'
 # CB: Actual app stuff below...
 #
 gem 'best_in_place', '~> 3.0.1'
+gem 'jquery-ui-rails'
