@@ -21,6 +21,7 @@
     <% end %>
   </tbody>
 </table>
+<p>Total: <%= @activities.map { |e| e.duration }.reduce(:+) %></p>
 
 <br>
 
