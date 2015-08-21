@@ -1,0 +1,11 @@
+# Since this is for my own learning, 
+# I should document some of the CLI wizardry I need.
+
+##LOCAL
+cd 'D:\Users\Chris Baragar\Git\Adder'
+heroku local web -f Procfile.windows
+jruby -S bundle install
+jruby -S bin\rake db:migrate
+
+##DEPLOYMENT
+git push heroku master
