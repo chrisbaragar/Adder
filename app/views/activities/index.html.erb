@@ -12,8 +12,8 @@
   <tbody>
     <% @activities.each do |activity| %>
       <tr>
-        <td><%= activity.name %></td>
-        <td><%= activity.duration %></td>
+        <td><%= best_in_place activity, :name, tabindex: "1" %></td>
+        <td><%= best_in_place activity, :duration, tabindex: "2" %></td>
         <td><%= link_to 'Show', activity %></td>
         <td><%= link_to 'Edit', edit_activity_path(activity) %></td>
         <td><%= link_to 'Destroy', activity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
