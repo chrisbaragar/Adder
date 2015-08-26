@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # CB: added this for windows
 ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
+# CB: Depserate troubleshooting, revert to old version of jruby
+#ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.22'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -50,6 +52,14 @@ gem 'puma'
 
 # CB: Added this because http://stackoverflow.com/questions/28775398/javascript-include-tag-throws-unsupported-method
 gem 'coffee-script-source', '1.8.0'
+
+# CB: Devise / OAuth stuff...
+# 'thrubyracer' Maybe not actually needed because Windows
+#gem 'therubyracer'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-digitalocean'
+gem 'omniauth-google'
 
 #
 # CB: Actual app stuff below...

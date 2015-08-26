@@ -9,3 +9,6 @@ jruby -S bin\rake db:migrate
 
 ##DEPLOYMENT
 git push heroku master
+
+##Gem installation - don't use jruby for native extensions!
+gem install '[blah-blah]'
