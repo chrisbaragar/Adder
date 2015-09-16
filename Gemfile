@@ -54,7 +54,7 @@ gem 'puma'
 gem 'coffee-script-source', '1.8.0'
 
 # CB: Devise / OAuth stuff...
-# 'thrubyracer' Maybe not actually needed because Windows: http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows
+# 'therubyracer' Maybe not actually needed because Windows: http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows
 #gem 'therubyracer'
 gem 'devise'
 gem 'omniauth'
