@@ -58,7 +58,6 @@ gem 'coffee-script-source', '1.8.0'
 #gem 'therubyracer'
 gem 'devise'
 gem 'omniauth'
-gem 'omniauth-digitalocean'
 gem 'omniauth-google'
 
 #
